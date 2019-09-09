@@ -13,11 +13,11 @@ const order = (props) => {
     }
 
     const ingredientOutput = ingredients.map(ig => {
-        return <span 
+        return <span
             style={{
                 textTransform: 'capitalize',
                 display: 'inline-block',
-                margin:'0 8px',
+                margin: '0 8px',
                 border: '1px solid #ccc',
                 padding: '5px'
             }}
